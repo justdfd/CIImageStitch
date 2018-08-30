@@ -12,6 +12,10 @@
 		620DD57E21388FBD00D9CF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620DD57C21388FBD00D9CF8A /* Main.storyboard */; };
 		620DD58021388FBF00D9CF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620DD57F21388FBF00D9CF8A /* Assets.xcassets */; };
 		620DD58321388FBF00D9CF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620DD58121388FBF00D9CF8A /* LaunchScreen.storyboard */; };
+		620DD58B2138907900D9CF8A /* IMG_0190.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 620DD58A2138907900D9CF8A /* IMG_0190.JPG */; };
+		620DD58D213890B800D9CF8A /* GLKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620DD58C213890B800D9CF8A /* GLKView.swift */; };
+		620DD58F213895D200D9CF8A /* Stitch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 620DD58E213895D200D9CF8A /* Stitch.cikernel */; };
+		620DD59121389AA900D9CF8A /* Stitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620DD59021389AA900D9CF8A /* Stitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		620DD57F21388FBF00D9CF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		620DD58221388FBF00D9CF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620DD58421388FBF00D9CF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620DD58A2138907900D9CF8A /* IMG_0190.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0190.JPG; sourceTree = "<group>"; };
+		620DD58C213890B800D9CF8A /* GLKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLKView.swift; sourceTree = "<group>"; };
+		620DD58E213895D200D9CF8A /* Stitch.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = Stitch.cikernel; sourceTree = "<group>"; };
+		620DD59021389AA900D9CF8A /* Stitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,12 @@
 		620DD57721388FBD00D9CF8A /* CIImageStitch */ = {
 			isa = PBXGroup;
 			children = (
+				620DD58A2138907900D9CF8A /* IMG_0190.JPG */,
 				620DD57821388FBD00D9CF8A /* AppDelegate.swift */,
 				620DD57A21388FBD00D9CF8A /* ViewController.swift */,
+				620DD58E213895D200D9CF8A /* Stitch.cikernel */,
+				620DD59021389AA900D9CF8A /* Stitch.swift */,
+				620DD58C213890B800D9CF8A /* GLKView.swift */,
 				620DD57C21388FBD00D9CF8A /* Main.storyboard */,
 				620DD57F21388FBF00D9CF8A /* Assets.xcassets */,
 				620DD58121388FBF00D9CF8A /* LaunchScreen.storyboard */,
@@ -122,7 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620DD58F213895D200D9CF8A /* Stitch.cikernel in Resources */,
 				620DD58321388FBF00D9CF8A /* LaunchScreen.storyboard in Resources */,
+				620DD58B2138907900D9CF8A /* IMG_0190.JPG in Resources */,
 				620DD58021388FBF00D9CF8A /* Assets.xcassets in Resources */,
 				620DD57E21388FBD00D9CF8A /* Main.storyboard in Resources */,
 			);
@@ -137,6 +151,8 @@
 			files = (
 				620DD57B21388FBD00D9CF8A /* ViewController.swift in Sources */,
 				620DD57921388FBD00D9CF8A /* AppDelegate.swift in Sources */,
+				620DD59121389AA900D9CF8A /* Stitch.swift in Sources */,
+				620DD58D213890B800D9CF8A /* GLKView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

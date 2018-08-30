@@ -1,0 +1,11 @@
+kernel vec4 stitch(float threshold, sampler palette, sampler original, sampler flipped) {
+    vec2 coord = destCoord();
+    if (coord.x < threshold) {
+        return sample(original, samplerCoord(original));
+    } else {
+        vec2 flippedCoord = coord - vec2(threshold, 0.0);
+        vec2 flippedCoordinate = samplerTransform(flipped, flippedCoord);
+        return sample(flipped, flippedCoordinate);
+    }
+}
+
